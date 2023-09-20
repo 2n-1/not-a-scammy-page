@@ -5,7 +5,7 @@ import ConfettiExplosion from "vue-confetti-explosion";
 
 <template>
   <center>
-    <ConfettiExplosion />
+    <component :is="ConfettiExplosion" />
   </center>
   <HelloWorld msg="Vite + Vue" />
 </template>
